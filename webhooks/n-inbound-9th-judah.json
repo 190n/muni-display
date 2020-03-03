@@ -1,0 +1,6 @@
+{
+    "eventName": "n_inbound",
+    "url": "http://webservices.nextbus.com/service/publicJSONFeed?command=predictions&a=sf-muni&r=N&s=5194",
+    "requestType": "GET",
+    "responseTemplate": "2|N Inbound|{{#predictions.direction}}{{#prediction}}{{{minutes}}}|{{/prediction}}{{/predictions.direction}}"
+}
